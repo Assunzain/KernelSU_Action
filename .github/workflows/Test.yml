@@ -1,0 +1,4 @@
+name: unzip tar.gz
+  win_command: "7z x {{ tar_gz_path }} -o{{ tar_path }} -y"
+- name: unzip tar
+  win_command: "7z x {{ tar_path }} -o{{ extracted_path } -y"
